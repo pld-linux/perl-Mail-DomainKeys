@@ -1,0 +1,11 @@
+--- Mail-DomainKeys-0.80/Makefile.PL~	2004-12-08 04:34:29.000000000 +0100
++++ Mail-DomainKeys-0.80/Makefile.PL	2006-01-03 16:17:54.200653040 +0100
+@@ -26,7 +26,7 @@
+ 	
+ EOT
+ 	
+-	$inet = prompt("Do you want to enable these tests?", "y") =~ /^y/i ? 1 : 0;
++	$inet = 0;
+ }
+ 
+ if ($inet) {
