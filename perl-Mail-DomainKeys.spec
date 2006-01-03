@@ -9,7 +9,7 @@ Summary:	Mail::Alias - implementation of Yahoo's mail signature protocol
 Summary(pl):	Mail::Alias - implementacja protoko³u sygnatur pocztowych Yahoo
 Name:		perl-Mail-DomainKeys
 Version:	0.80
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
