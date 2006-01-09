@@ -69,10 +69,10 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%dir %{perl_vendorlib}/%{pdir}/%{pnam}
-%dir %{perl_vendorlib}/%{pdir}/%{pnam}/Key
-%{perl_vendorlib}/%{pdir}/%{pnam}.pm
-%{perl_vendorlib}/%{pdir}/%{pnam}/*.pm
-%{perl_vendorlib}/%{pdir}/%{pnam}/Key/*.pm
+%dir %{perl_vendorlib}/Mail/DomainKeys
+%dir %{perl_vendorlib}/Mail/DomainKeys/Key
+%{perl_vendorlib}/Mail/DomainKeys.pm
+%{perl_vendorlib}/Mail/DomainKeys/*.pm
+%{perl_vendorlib}/Mail/DomainKeys/Key/*.pm
 %attr(755,root,root) %{_examplesdir}/%{name}-%{version}
 %{_mandir}/man3/*
