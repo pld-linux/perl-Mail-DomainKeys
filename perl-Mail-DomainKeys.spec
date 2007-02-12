@@ -6,7 +6,7 @@
 %define		pdir	Mail
 %define		pnam	DomainKeys
 Summary:	Mail::Alias - implementation of Yahoo's mail signature protocol
-Summary(pl):	Mail::Alias - implementacja protoko≥u sygnatur pocztowych Yahoo
+Summary(pl.UTF-8):   Mail::Alias - implementacja protoko≈Çu sygnatur pocztowych Yahoo
 Name:		perl-Mail-DomainKeys
 Version:	0.80
 Release:	1
@@ -35,10 +35,10 @@ This library allows one to sign and verify signatures as per per draft
 
 http://www.ietf.org/internet-drafts/draft-delany-domainkeys-base-03.txt
 
-%description -l pl
-Mail::DomainKeys jest implementacj± protoko≥u sygnatur pocztowych Yahoo.
+%description -l pl.UTF-8
+Mail::DomainKeys jest implementacjƒÖ protoko≈Çu sygnatur pocztowych Yahoo.
 
-Ta biblioteka umoøliwia sygnowanie i weryfikacje sygnatur zgodnie z
+Ta biblioteka umo≈ºliwia sygnowanie i weryfikacje sygnatur zgodnie z
 draftem 03 specyfikacji DomainKeys:
 
 http://www.ietf.org/internet-drafts/draft-delany-domainkeys-base-03.txt
