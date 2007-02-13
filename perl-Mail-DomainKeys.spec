@@ -6,7 +6,7 @@
 %define		pdir	Mail
 %define		pnam	DomainKeys
 Summary:	Mail::Alias - implementation of Yahoo's mail signature protocol
-Summary(pl.UTF-8):   Mail::Alias - implementacja protokołu sygnatur pocztowych Yahoo
+Summary(pl.UTF-8):	Mail::Alias - implementacja protokołu sygnatur pocztowych Yahoo
 Name:		perl-Mail-DomainKeys
 Version:	0.88
 Release:	1
