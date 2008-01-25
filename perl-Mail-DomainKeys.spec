@@ -13,12 +13,13 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Mail/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a4565f21ada263cf34c55f50d7eb9944
 Patch0:		%{name}-notconnected.patch
+URL:		http://search.cpan.org/dist/Mail-DomainKeys/
 BuildRequires:	perl-Crypt-OpenSSL-RSA
-#BuildRequires:	perl-Mail-Address
 BuildRequires:	perl-MIME-Base64
+#BuildRequires:	perl-Mail-Address
 BuildRequires:	perl-Net-DNS >= 0.34
 #BuildRequires:	perl-Test-More
 BuildRequires:	perl-devel >= 1:5.8.0
