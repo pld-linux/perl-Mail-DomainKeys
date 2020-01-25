@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Mail
 %define		pnam	DomainKeys
 Summary:	Mail::Alias - implementation of Yahoo's mail signature protocol
